@@ -80,8 +80,11 @@ NOTES FOR 2019 / Mojave
 * `rbenv install -l`, pick the one you want, e.g. `rbenv install 2.5.5`
 * brew install direnv
 * Review following to set appropriate rbenv defaults: https://github.com/rbenv/rbenv#environment-variables
-* Add bash aliases to `~/.bash_profile`:
-  * Add `alias gst='git status'` - the only alias I use ;)
+* Add bash aliases to `~/.zshrc`:
+  * Add:
+    * `alias gst='git status'`
+    * `alias ci='commit"`
+    * `alias co='checkout`
 * For multiple users on the same computer
   * [link to slack exchange post](https://apple.stackexchange.com/questions/1393/are-my-permissions-for-usr-local-correct/189404#189404)
   * `sudo chgrp -R admin /usr/local /Library/Caches/Homebrew`
@@ -93,6 +96,7 @@ NOTES FOR 2019 / Mojave
 * Install Visual Studio Code and [set it up](#visual-studio-code-setup)
 * Install Textmate 2
   * Preferences -> Projects -> Include Files Matching: `{*,.*}`
+  * Preferences -> Terminal -> Install Shell support
   * Configure autosave: add `saveOnBlur = true` to top of `~/Library/Application\ Support/TextMate/Global.tmProperties`
 * Additional browsers as necessary: Canary, Firefox, Opera
 * Turn off system prefs for trackpad swipe between pages because it makes you lose your duolingo lesson >:-(
