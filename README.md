@@ -81,10 +81,11 @@ NOTES FOR 2019 / Mojave
 * brew install direnv
 * Review following to set appropriate rbenv defaults: https://github.com/rbenv/rbenv#environment-variables
 * Add bash aliases to `~/.zshrc`:
-  * Add:
-    * `alias gst='git status'`
-    * `alias ci='commit"`
-    * `alias co='checkout`
+  * Add `alias gst='git status'`
+* Add git config aliases:
+  * `$ git config --global alias.ci commit`
+  * `$ git config --global alias.co checkout`
+  * `$ git config --global alias.sw switch`  
 * For multiple users on the same computer
   * [link to slack exchange post](https://apple.stackexchange.com/questions/1393/are-my-permissions-for-usr-local-correct/189404#189404)
   * `sudo chgrp -R admin /usr/local /Library/Caches/Homebrew`
